@@ -1,13 +1,16 @@
 package guerrero.com.app1;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class mainRegistrar extends AppCompatActivity {
+/**
+ * Created by Guillem on 27/12/2017.
+ */
 
+public class MainFeed extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_registrar);
+        setContentView(R.layout.main_feed);
     }
 }

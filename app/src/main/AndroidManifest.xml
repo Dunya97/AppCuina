@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".mainRegistrar"></activity>
+        
+        <activity android:name=".MainFeed"></activity>
     </application>
 
 </manifest>
